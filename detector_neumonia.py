@@ -8,7 +8,7 @@ from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib import colors
 from datetime import datetime
-from PIL import Image as PILImage, ImageTk
+#from PIL import Image as PILImage, ImageTk
 import os
 import io
 from datetime import datetime
