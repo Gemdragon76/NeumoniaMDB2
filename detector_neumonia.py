@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, font, filedialog, Text, StringVar
+from tkinter import ttk, font, filedialog, Text, StringVar , messagebox
 from PIL import ImageTk, Image
 import numpy as np
 from tensorflow.keras.models import load_model
@@ -7,15 +7,13 @@ from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib import colors
-from tkinter import filedialog, messagebox
 from datetime import datetime
-#from PIL import Image as PILImage, ImageTk
+from PIL import Image as PILImage, ImageTk
 import os
 import io
 from datetime import datetime
 
 import csv
-from tkinter import filedialog, messagebox
 
 
 
