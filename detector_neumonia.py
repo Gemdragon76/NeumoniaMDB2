@@ -9,7 +9,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib import colors
 from tkinter import filedialog, messagebox
 from datetime import datetime
-from PIL import Image as PILImage, ImageTk
+#from PIL import Image as PILImage, ImageTk
 import os
 import io
 from datetime import datetime
