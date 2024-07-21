@@ -20,6 +20,7 @@ import csv
 
 class App:
     def __init__(self):
+        export DISPLAY=:0.0
         self.root = tk.Tk()
         self.root.title("Herramienta para la detección rápida de neumonía")
 
