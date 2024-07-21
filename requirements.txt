@@ -9,3 +9,7 @@ pandas
 tensorflow
 python-xlib
 reportlab
+numpy
+os
+io
+cvs
