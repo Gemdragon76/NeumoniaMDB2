@@ -10,3 +10,4 @@ tensorflow
 python-xlib
 reportlab
 numpy
+tk
