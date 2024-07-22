@@ -89,7 +89,7 @@ class App:
         self.text1.focus_set()
 
         # Load pre-trained model
-        self.model = load_model(r'/mi_modelo_entrenado.h5')
+        self.model = load_model(r'mi_modelo_entrenado.h5')
 
         self.root.mainloop()
 
