@@ -7,6 +7,7 @@ opencv_python
 matplotlib
 pandas
 tensorflow
+keras
 python-xlib
 reportlab
 numpy
