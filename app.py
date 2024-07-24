@@ -14,13 +14,13 @@ import tensorflow as tf
 import numpy as np
 
 # Cargar el modelo entrenado
-model = load_model('mi_modelo_entrenado.h5')
+model = load_model(r'mi_modelo_entrenado.h5')
 
 # Compilar el modelo con una configuración de compilación genérica
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Ajustar la ruta de la imagen de ejemplo aquí con doble barra diagonal o prefijo r
-example_image_path = r'C:\Users\MMDDB\Downloads\person1710_bacteria_4526.jpeg'
+example_image_path = (r"C:\Users\MMDDB\Downloads\person1710_bacteria_4526.jpeg")
 
 # Función para cargar la imagen de ejemplo y compilar las métricas
 def load_example_image():
@@ -46,6 +46,7 @@ def predict_pneumonia(image_path):
     except Exception as e:
         print(f"Error durante la predicción: {str(e)}")
         return None
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
